@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modul1nomor2">
+
+    <TextView
+        android:id="@+id/lihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG BMI\n\n"/>
+
+    <TextView
+        android:id="@+id/berat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0F0D0F"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Berat Badan : "/>
+
+    <EditText
+        android:id="@+id/inputBerat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"/>
+
+    <TextView
+        android:id="@+id/tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0F0D0F"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Tinggi Badan : "/>
+
+    <EditText
+        android:id="@+id/inputTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"/>
+
+    <Button
+        android:id="@+id/hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+</LinearLayout>
