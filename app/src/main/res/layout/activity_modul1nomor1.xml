@@ -13,13 +13,14 @@
         android:textColor="#060F8C"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:text="Masukkan Nama Pelanggan : "/>
+        android:text="@string/inputnama"/>
 
 
     <EditText
         android:id="@+id/inputNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/hintnama"
         android:inputType="text" />
 
     <Button
@@ -27,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Simpan"
-        android:text="Simpan"/>
+        android:text="@string/simpan"/>
 
     <TextView
         android:id="@+id/hasil"

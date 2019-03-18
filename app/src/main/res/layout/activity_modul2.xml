@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:text="Bahasa : "
+                    android:text="@string/bhs"
                     android:textColor="#000000"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -75,9 +75,9 @@
                 android:layout_below="@id/radiogrup"
                 android:layout_centerHorizontal="true"
                 android:paddingTop="30dp"
-                android:text="Nama Pemesan : "
+                android:text="@string/nama_pemesan"
                 android:textColor="#000"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <EditText
                 android:id="@+id/editNamaPemesan"
@@ -92,7 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/editNamaPemesan"
-                android:text="Menu Kopi : "
+                android:text="@string/menu"
                 android:textColor="#000"
                 android:textStyle="bold" />
 
@@ -101,27 +101,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_below="@+id/menuCoffe"
-                android:text="Arabika"
+                android:text="@string/arabika"
                 android:textColor="#000"
-                android:textSize="10dp" />
+                android:textSize="12sp" />
 
             <CheckBox
                 android:id="@+id/kopi2"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_below="@+id/kopi1"
-                android:text="Americano"
+                android:text="@string/american"
                 android:textColor="#000"
-                android:textSize="10dp" />
+                android:textSize="12sp" />
 
             <CheckBox
                 android:id="@+id/kopi3"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_below="@+id/kopi2"
-                android:text="Robusta"
+                android:text="@string/robusta"
                 android:textColor="#000"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/sajian"
@@ -129,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/editNamaPemesan"
                 android:layout_centerHorizontal="true"
-                android:text="Sajian"
+                android:text="@string/sajian"
                 android:textColor="#000"
                 android:textStyle="bold" />
 
@@ -146,17 +146,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:checked="true"
-                    android:text="Hangat"
+                    android:text="@string/hangat"
                     android:textColor="#000"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
                 <RadioButton
                     android:id="@+id/dingin1"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:text="Dingin"
+                    android:text="@string/dingin"
                     android:textColor="#000"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
             </RadioGroup>
 
             <RadioGroup
@@ -172,17 +172,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:checked="true"
-                    android:text="Hangat"
+                    android:text="@string/hangat"
                     android:textColor="#000"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
                 <RadioButton
                     android:id="@+id/dingin2"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:text="Dingin"
+                    android:text="@string/dingin"
                     android:textColor="#000"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
             </RadioGroup>
 
             <RadioGroup
@@ -198,17 +198,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
                     android:checked="true"
-                    android:text="Hangat"
+                    android:text="@string/hangat"
                     android:textColor="#000"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
 
                 <RadioButton
                     android:id="@+id/dingin3"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:text="Dingin"
+                    android:text="@string/dingin"
                     android:textColor="#000"
-                    android:textSize="10sp" />
+                    android:textSize="12sp" />
             </RadioGroup>
 
             <TextView
@@ -217,7 +217,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/editNamaPemesan"
                 android:layout_alignParentRight="true"
-                android:text="Jumlah : "
+                android:text="@string/jumlah"
                 android:textColor="#000"
                 android:textStyle="bold" />
 
@@ -228,7 +228,7 @@
                 android:layout_below="@+id/jumlah"
                 android:layout_alignParentRight="true"
                 android:inputType="number"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/jumlah2"
@@ -237,7 +237,7 @@
                 android:layout_below="@+id/jumlah1"
                 android:layout_alignParentRight="true"
                 android:inputType="number"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/jumlah3"
@@ -246,7 +246,7 @@
                 android:layout_below="@+id/jumlah2"
                 android:layout_alignParentRight="true"
                 android:inputType="number"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
 
             <Button
                 android:id="@+id/order"
@@ -254,7 +254,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/radiogrup3"
                 android:onClick="order"
-                android:text="PESAN"
+                android:text="@string/pesan"
                 android:textColor="#000" />
 
             <TextView
@@ -263,7 +263,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/order"
                 android:inputType="text"
-                android:text="Nama Pemesan : "
+                android:text="@string/namanya"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
@@ -279,7 +279,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/nama"
-                android:text="Total Pesanan : Rp. "
+                android:text="@string/total"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
@@ -298,7 +298,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/total"
-                android:text="Bayar : Rp. "
+                android:text="@string/bayar"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
@@ -318,7 +318,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/bayar2"
                 android:onClick="bayar"
-                android:text="BAYAR"
+                android:text="@string/bayarin"
                 android:textColor="#000"
                 android:textSize="17sp" />
 
@@ -327,7 +327,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/bayar3"
-                android:text=" "
+                android:text=""
                 android:textColor="#000"
                 android:textSize="20sp" />
 

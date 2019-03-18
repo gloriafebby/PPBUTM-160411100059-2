@@ -30,6 +30,7 @@ public class modul1nomor2 extends AppCompatActivity {
         });
     }
     private void hitungBMI(){
+
         String beratStr = Berat.getText().toString();
         String tinggiStr = Tinggi.getText().toString();
 

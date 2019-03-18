@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +10,7 @@
         android:id="@+id/lihat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HITUNG BMI\n\n"/>
+        android:text="@string/hitung"/>
 
     <TextView
         android:id="@+id/berat"
@@ -20,10 +19,11 @@
         android:textColor="#0F0D0F"
         android:textSize="25sp"
         android:fontFamily="sans-serif-black"
-        android:text="Berat Badan : "/>
+        android:text="@string/berat"/>
 
     <EditText
         android:id="@+id/inputBerat"
+        android:hint="@string/hintberat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number|numberDecimal"/>
@@ -35,10 +35,11 @@
         android:textColor="#0F0D0F"
         android:textSize="25sp"
         android:fontFamily="sans-serif-black"
-        android:text="Tinggi Badan : "/>
+        android:text="@string/tinggi"/>
 
     <EditText
         android:id="@+id/inputTinggi"
+        android:hint="@string/hinttinggi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number|numberDecimal"/>
@@ -47,7 +48,7 @@
         android:id="@+id/hitung"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hasil" />
+        android:text="@string/hasil" />
 
     <TextView
         android:id="@+id/result"

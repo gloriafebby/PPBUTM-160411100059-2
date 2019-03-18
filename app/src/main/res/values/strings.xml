@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">PPBD</string>
+    <string name="namaku">Nama : Gloria Theresia Febryanti \nNIM  : 160411100059 \nModul Praktikum PPB D\n\n</string>
+    <string name="modul11">Modul 1-Nomor 1</string>
+    <string name="modul12">Modul 1-Nomor 2</string>
+    <string name="modul2">Modul 2</string>
+    //Modul1.1
+    <string name="inputnama">Masukkan Nama : </string>
+    <string name="hintnama">Enter Your Name</string>
+    <string name="simpan">Simpan</string>
+    //Modul1.2
+    <string name="hitung">HITUNG BMI\n\n</string>
+    <string name="berat">Berat Badan : </string>
+    <string name="hintberat">Masukkan Berat Badan Anda</string>
+    <string name="tinggi">Tinggi Badan : </string>
+    <string name="hinttinggi">Masukkan Tinggi Badan Anda</string>
+    <string name="hasil">Hasil</string>
+    //Modul2
+    <string name="bhs">Bahasa :</string>
+    <string name="nama_pemesan">Nama Pemesan : </string>
+    <string name="menu">Menu Kopi : </string>
+    <string name="arabika">Arabika</string>
+    <string name="american">American</string>
+    <string name="robusta">Robusta</string>
+    <string name="sajian">Sajian : </string>
+    <string name="hangat">Panas</string>
+    <string name="dingin">Dingin</string>
+    <string name="jumlah">Jumlah : </string>
+    <string name="pesan">PESAN</string>
+    <string name="namanya">Nama Pemesan : </string>
+    <string name="total">Total Pesanan : Rp. </string>
+    <string name="bayar">Bayar : Rp. </string>
+    <string name="bayarin">BAYAR</string>
+    <!--<string name="kembalian"></string>-->
+    <!--<string name="total2"></string>-->
 </resources>

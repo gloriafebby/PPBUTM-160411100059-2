@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Moduldua"
-        android:text="@string/modul12"
+        android:text="@string/modul2"
         android:textStyle="bold" />
 
 </LinearLayout>
